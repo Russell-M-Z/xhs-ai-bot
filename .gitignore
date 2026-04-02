@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+.venv/
+
+# Runtime outputs
+services/chrome-mcp-worker/runs/artifacts/
+services/chrome-mcp-worker/runs/reports/
+services/chrome-mcp-worker/runs/incidents/
+
+# Node
+services/chrome-mcp-worker/tools/node_modules/
+
+# Logs
+*.log

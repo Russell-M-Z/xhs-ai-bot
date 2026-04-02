@@ -1,0 +1,55 @@
+{
+  "page": {
+    "new_product_url": "https://ark.xiaohongshu.com/app-seller/goods/create"
+  },
+  "selectors": {
+    "category_input": {
+      "primary": "[data-testid='category-input']",
+      "fallback": ["input[placeholder*='类目']", "input[placeholder*='分类']"]
+    },
+    "brand_input": {
+      "primary": "[data-testid='brand-input']",
+      "fallback": ["input[placeholder*='品牌']"]
+    },
+    "product_name_input": {
+      "primary": "[data-testid='product-name']",
+      "fallback": ["input[placeholder*='商品名称']"]
+    },
+    "short_name_input": {
+      "primary": "[data-testid='short-name']",
+      "fallback": ["input[placeholder*='简称']"]
+    },
+    "spec_name_input": {
+      "primary": "[data-testid='spec-name-1']",
+      "fallback": ["input[placeholder*='规格名']"]
+    },
+    "spec_value_input": {
+      "primary": "[data-testid='spec-value-1']",
+      "fallback": ["input[placeholder*='规格值']"]
+    },
+    "barcode_input": {
+      "primary": "[data-testid='barcode']",
+      "fallback": ["input[placeholder*='条码']"]
+    },
+    "price_input": {
+      "primary": "[data-testid='price']",
+      "fallback": ["input[placeholder*='售价']"]
+    },
+    "original_price_input": {
+      "primary": "[data-testid='original-price']",
+      "fallback": ["input[placeholder*='划线价']"]
+    },
+    "image_upload": {
+      "primary": "input[type='file'][accept*='image']",
+      "fallback": ["[data-testid='image-upload'] input[type='file']"]
+    },
+    "desc_textarea": {
+      "primary": "[data-testid='product-desc']",
+      "fallback": ["textarea[placeholder*='描述']"]
+    },
+    "save_draft_button": {
+      "primary": "[data-testid='save-draft']",
+      "fallback": ["button:has-text('保存草稿')", "button:has-text('保存')"]
+    }
+  }
+}

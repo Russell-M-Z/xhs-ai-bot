@@ -1,0 +1,10 @@
+{
+  "name": "xhs-chrome-mcp-bridge",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Chrome action bridge for xhs upload executor",
+  "dependencies": {
+    "puppeteer-core": "^24.7.1"
+  }
+}
